@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mark | Ethical Hacker</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --panel: #111827;
+      --green: #00ff9c;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --red: #ef4444;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Fira Code", monospace;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--green);
+    }
+
+    header p {
+      margin-top: 10px;
+      color: var(--muted);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: var(--panel);
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    }
+
+    h2 {
+      color: var(--green);
+      margin-bottom: 15px;
+    }
+
+    .terminal {
+      background: #020617;
+      border-radius: 10px;
+      padding: 20px;
+      font-size: 0.9rem;
+      overflow-x: auto;
+    }
+
+    .terminal span {
+      color: var(--green);
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .skill {
+      background: #020617;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .projects a {
+      color: var(--green);
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      background: var(--green);
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <h1>Mark Kiptoo</h1>
+    <p>Ethical Hacker • Cybersecurity Student • Red Team Mindset</p>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am an ethical hacking student focused on penetration testing,
+        networking, Linux systems, and real-world security labs.
+        I practice responsibly using legal platforms and document
+        everything in professional write-ups.
+      </p>
+    </div>
+  </section>
+
+  <!-- TERMINAL -->
+  <section>
+    <div class="card">
+      <h2>Live Terminal</h2>
+      <div class="terminal">
+        <p><span>mark@kali</span>:~$ whoami</p>
+        <p>ethical_hacker</p>
+        <br/>
+        <p><span>mark@kali</span>:~$ nmap -sV target.local</p>
+        <p>22/tcp open ssh</p>
+        <p>80/tcp open http</p>
+        <p>443/tcp open https</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <div class="card">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">Linux & Bash</div>
+        <div class="skill">Networking (TCP/IP, DNS, HTTP)</div>
+        <div class="skill">Nmap & Recon</div>
+        <div class="skill">Web Pentesting (OWASP Top 10)</div>
+        <div class="skill">Password Attacks</div>
+        <div class="skill">TryHackMe / HTB Labs</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section>
+    <div class="card projects">
+      <h2>Projects & Labs</h2>
+      <ul>
+        <li>✔ TryHackMe: Pre-Security Path</li>
+        <li>✔ Network Scanning & Enumeration Labs</li>
+        <li>✔ Web Login Bypass Testing</li>
+        <li>✔ GitHub Write-ups (Coming Soon)</li>
+      </ul>
+      <a href="#" class="btn">View GitHub</a>
+    </div>
+  </section>
+
+  <!-- CERTS -->
+  <section>
+    <div class="card">
+      <h2>Certification Roadmap</h2>
+      <ul>
+        <li>→ Networking Fundamentals</li>
+        <li>→ Linux Mastery</li>
+        <li>→ CEH (Planned)</li>
+        <li>→ OSCP (Future Goal)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Mark Kiptoo — Ethical Hacking Portfolio  
+    <br/>
+    Practice Legal. Hack Responsibly.
+  </footer>
+
+</body>
+</html>
