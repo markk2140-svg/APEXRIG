@@ -37,4 +37,4 @@ Netlify and Cloudflare Pages can also deploy this folder as a static site withou
 - The GitHub repository widget reads public repositories for `markk2140-svg` via GitHub's public API. Change the username in `script.js` if needed.
 
 ## Privacy and security
-This is a front-end static site. Never put API keys, passwords, tokens, or private information in its source. The public contact section links to GitHub and Instagram; it does not publish an email address or collect visitor messages.
+This is a front-end static site. Never put API keys, passwords, tokens, or private information in its source. The public contact section links to GitHub only; it does not publish personal social profiles or an email address, or collect visitor messages.
